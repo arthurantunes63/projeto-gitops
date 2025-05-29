@@ -15,5 +15,6 @@ spec:
       containers:
       - name: fastapi-container
         image: arthurantunesmachado/fastapi-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
