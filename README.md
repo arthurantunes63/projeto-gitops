@@ -62,5 +62,10 @@ Redireciona a porta exposta (80) para a porta local 8081
 kubectl port-forward svc/fastapi-service -n default 8081:80
 ```
 
+### Reiniciando pods
+```sh
+kubectl rollout restart deployment fastapi-deployment -n default
+```
+
 ## Execução local da esteira
 Projeto [Act](https://github.com/nektos/act)
