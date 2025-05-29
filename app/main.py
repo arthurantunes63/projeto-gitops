@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "Olá Mundo - CI/CD + FastAPI"}
+    return {"message": "Olá Mundo - CI/CD + FastAP"}
